@@ -3,4 +3,3 @@ target/
 dbt_modules/
 logs/
 .vscode
-.json
