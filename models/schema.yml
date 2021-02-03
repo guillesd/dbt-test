@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: daily_report
+    columns:
+      - name: visits
+        tests:
+          - not_null
+
+      - name: pageviews
+        tests:
+          - not_null
