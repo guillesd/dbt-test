@@ -1,1 +1,65 @@
-{"metadata": {"dbt_schema_version": "https://schemas.getdbt.com/dbt/catalog/v1.json", "dbt_version": "0.19.0", "generated_at": "2021-02-03T16:02:41.308891Z", "invocation_id": "af1e00b2-57c6-479d-bca6-26d712239d23", "env": {}}, "nodes": {"model.dbt_test.daily_report": {"metadata": {"type": "view", "database": "vocal-tracker-302409", "schema": "dbt_test", "name": "daily_report", "comment": null, "owner": null}, "columns": {"date": {"type": "STRING", "comment": null, "index": 1, "name": "date"}, "visits": {"type": "INT64", "comment": null, "index": 2, "name": "visits"}, "pageviews": {"type": "INT64", "comment": null, "index": 3, "name": "pageviews"}, "transactions": {"type": "INT64", "comment": null, "index": 4, "name": "transactions"}, "revenue": {"type": "FLOAT64", "comment": null, "index": 5, "name": "revenue"}}, "stats": {"has_stats": {"id": "has_stats", "label": "Has Stats?", "value": false, "description": "Indicates whether there are statistics for this table", "include": false}}, "unique_id": "model.dbt_test.daily_report"}}, "sources": {}, "errors": null}
+{
+    "metadata": {
+        "dbt_schema_version": "https://schemas.getdbt.com/dbt/catalog/v1.json",
+        "dbt_version": "0.19.0",
+        "generated_at": "2021-02-03T16:02:41.308891Z",
+        "invocation_id": "af1e00b2-57c6-479d-bca6-26d712239d23",
+        "env": {}
+    },
+    "nodes": {
+        "model.dbt_test.daily_report": {
+            "metadata": {
+                "type": "view",
+                "database": "vocal-tracker-302409",
+                "schema": "dbt_test",
+                "name": "daily_report",
+                "comment": null,
+                "owner": null
+            },
+            "columns": {
+                "date": {
+                    "type": "STRING",
+                    "comment": null,
+                    "index": 1,
+                    "name": "date"
+                },
+                "visits": {
+                    "type": "INT64",
+                    "comment": null,
+                    "index": 2,
+                    "name": "visits"
+                },
+                "pageviews": {
+                    "type": "INT64",
+                    "comment": null,
+                    "index": 3,
+                    "name": "pageviews"
+                },
+                "transactions": {
+                    "type": "INT64",
+                    "comment": null,
+                    "index": 4,
+                    "name": "transactions"
+                },
+                "revenue": {
+                    "type": "FLOAT64",
+                    "comment": null,
+                    "index": 5,
+                    "name": "revenue"
+                }
+            },
+            "stats": {
+                "has_stats": {
+                    "id": "has_stats",
+                    "label": "Has Stats?",
+                    "value": false,
+                    "description": "Indicates whether there are statistics for this table",
+                    "include": false
+                }
+            },
+            "unique_id": "model.dbt_test.daily_report"
+        }
+    },
+    "sources": {},
+    "errors": null
+}
