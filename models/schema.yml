@@ -10,3 +10,12 @@ models:
       - name: pageviews
         tests:
           - not_null
+
+  - name: user_stats
+    columns:
+      - name: visitorId
+        tests: 
+          - not_null 
+      - name: date
+        tests: 
+          - last_date
