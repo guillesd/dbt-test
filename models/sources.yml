@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+
+  - name: dbt_test
+    tables:
+      - name: ga_sessions
+        identifier: "ga_sessions_*"

@@ -35,4 +35,4 @@ models:
   dbt-test:
       # Applies to all files under models/example/
       stats:
-          materialized: view
+          materialized: table
